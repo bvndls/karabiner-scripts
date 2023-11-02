@@ -1,0 +1,25 @@
+{
+    "title": "F3 to FUllscreen",
+    "rules": [
+        {
+            "description": "Change F3 to Fn + F",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f3",
+                        "modifiers": {
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f",
+                            "modifiers": ["fn"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

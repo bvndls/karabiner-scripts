@@ -1,0 +1,24 @@
+{
+    "title": "F5 to Microphone Control",
+    "rules": [
+        {
+            "description": "Mute/Unmute with F5",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f5",
+                        "modifiers": {
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "osascript -e 'tell application \"System Events\" to set currentInputVolume to input volume of (get volume settings)' -e 'if currentInputVolume = 0 then' -e 'set volume input volume 90' -e 'set currentInputVolume to input volume of (get volume settings)' -e 'display notification \"Microphone level: \" & currentInputVolume with title \"Unmuted\" & \" ✅\" ' -e 'else' -e ' set volume input volume 0 ' -e 'set currentInputVolume to input volume of (get volume settings)' -e ' display notification \"Microphone level: \" & currentInputVolume with title \"Muted\" & \" 🔇\" ' -e ' end if'"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
