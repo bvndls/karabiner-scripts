@@ -22,7 +22,7 @@ Collection of useful scripts for [Karabiner Elements](https://karabiner-elements
 
 # Installation
 
-1. Install [Karabiner Elements](https://karabiner-elements.pqrs.org/)
+1. Install and set up [Karabiner Elements](https://karabiner-elements.pqrs.org/)
 2. Download the necessary scripts or ````git clone https://github.com/bvndls/karabiner-scripts.git````
 3. Move the files to ````~/.config/karabiner/assets/complex_modifications ````
 <img width="1032" alt="image" src="https://github.com/bvndls/karabiner-scripts/assets/33387350/bf1afa27-6e06-43e1-8173-9887a0f1aa63">
