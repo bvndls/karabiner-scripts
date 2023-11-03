@@ -1,13 +1,14 @@
 # Karabiner Scripts
 Collection of useful scripts for [Karabiner Elements](https://karabiner-elements.pqrs.org/)
 
-**MacOS-Specific**
-Scripts include:
+**Scripts include:**
 1. Map F3 to Fullscren mode  
    (Uses fn+F as the shortcut instead of ⌃⌘+F)
 2. Map F4 to [Arc Browser](https://arc.net)  
    (Remap to any app by changing the **.app** at line 17)
-3. Map F5 to Mute toggle  
+   
+   > Only apps in ````/Applications```` directory are included, if you want to use other apps, modify the command accordingly
+4. Map F5 to Mute toggle  
    (Includes a notification after each Mute/Unmute with the status and current volume level, can be changed at line 17)  
 
 **Default:**
@@ -29,3 +30,7 @@ Scripts include:
 <img width="1212" alt="image" src="https://github.com/bvndls/karabiner-scripts/assets/33387350/47e25d7d-3364-437c-b644-4c4541794644">
 5. Enable the scripts that you want to use
 <img width="1212" alt="image" src="https://github.com/bvndls/karabiner-scripts/assets/33387350/2f40e5b4-3554-400a-86ce-98fea565d213">
+
+# Reporting
+
+> If you have any ideas, or found an error, feel free to file an **Issue**
